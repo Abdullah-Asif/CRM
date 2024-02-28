@@ -1,6 +1,6 @@
 import {ICustomerService} from "../contracts/services/customer.service.interface";
 import {Customer} from "../../domain/entities/customer.entity";
-import {ICustomerRepository} from "../contracts/persistence/customerRepository.inteface";
+import {ICustomerRepository} from "../contracts/persistence/customer.repository.inteface";
 import {customers} from "../demoConstant";
 
 export class CustomerService implements ICustomerService {
